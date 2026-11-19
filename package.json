@@ -1,0 +1,15 @@
+{
+  "name": "service-topology-builder",
+  "version": "1.0.0",
+  "description": "从乱序、有损、多采样率的 span 流重建服务拓扑",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "exports": {
+    ".": "./src/topology.js"
+  }
+}
